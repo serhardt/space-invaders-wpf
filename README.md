@@ -1,6 +1,6 @@
 # Space Invaders
 
-This is a clone of the famous classical arcade game Space Invaders in C# .NET WPF.
+This is a clone of the famous classical arcade game Space Invaders in C# .NET WPF graphically faithful to the original.
 
 ## Additional considerations
 Into this project, I don't use graphical image files but I generate the required sprites.
