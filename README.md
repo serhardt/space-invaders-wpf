@@ -1,6 +1,12 @@
-# space-invaders
+# Space Invaders
 
-Clone of the famous classical arcade game Space Invaders in C# .NET WPF.
+This is a clone of the famous classical arcade game Space Invaders in C# .NET WPF.
+
+## Additional considerations
+Into this project, I don't use graphical image files but I generate the required sprites.
+I use exclusivelly WPF functions but it can easily adapted in other frameworks because drawing stuff is easily localisable to be updated.
+All the code can be quickly moveable in an foreign project (without needing to do a DLL) because I wanted to embed it into another project of mine as an Easter Egg.
+The project uses only one timer uses to draw sprites and do the game loop keeping the traditional way of programming games in 80s.
 
 ## Getting Started
 
@@ -8,18 +14,18 @@ To be able to compile this project, it is very simple, you only need to download
 
 ### Prerequisites
 
-Microsoft Visual Studio 2017
-.NET Framework 4
+* Microsoft Visual Studio 2017
+* .NET Framework 4
 
 ## Motivation
 
-This project exists to explain to beginners and intermediates in computing development how to use C#, .NET and WPF in a program to make a game like *Space Invaders*. This should explain **why** the project exists.
+This project exists to be an Easter Egg and to explain to beginners and intermediates in computing development how to use C#, .NET and WPF in a program to make a game like *Space Invaders*.
 
 ### Installing
 
 * To be able to compile this project, it is very simple, you only need to download or clone the sources locally on your computer and open the solution from Visual Studio 2017 or higher (but you should open it from a lower version of Visual Studio by remaking the solution with your current version),
-* Compile the project 'SpaceInvaderGame',
-* After that you can execute the compiled binary 'SpaceInvaderGame.exe' and enjoy the game.
+* Compile the project **SpaceInvaderGame**,
+* After that you can execute the compiled binary *SpaceInvaderGame.exe* and enjoy the game.
 
 ## Deployment
 
